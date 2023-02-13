@@ -1,0 +1,13 @@
+<h2>PIRATES:</h2>
+
+<ul class="pirates">
+  <li *ngFor="let pirate of pirates">
+    <button type="button" (click)="onSelect(pirate)">
+      <span class="name">{{pirate.name}}</span>
+      <!-- <span class="crew">{{pirate.crew}}</span>
+      <span class="bounty">{{pirate.bounty}}</span> -->
+    </button>
+  </li>
+</ul>
+
+<app-pirate-details [pirate]="selectedPirate"></app-pirate-details>

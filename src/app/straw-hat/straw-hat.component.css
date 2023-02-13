@@ -1,0 +1,17 @@
+ul {
+    list-style: square;
+}
+ul > * {
+    font-size: larger;
+}
+li {
+    margin-top: 10px;
+}
+button {
+    width: 10rem;
+}
+
+button:active {
+    background-color: rgb(22, 22, 22);
+    color: blanchedalmond;
+}
